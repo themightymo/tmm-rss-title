@@ -1,0 +1,330 @@
+******************************************************************
+boardmembers.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: boardmembers.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "boardmembers.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+********************************************************************
+businessplanning.managementhelp.org
+********************************************************************
+<!-- Custom Channel Tag: businessplanning.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "businessplanning.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+******************************************************************
+businessservices.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: businessservices.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "businessservices.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+consultants.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: consultants.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "consultants.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+csuite.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: csuite.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "csuite.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+education.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: education.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "education.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+finance.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: finance.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "finance.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+government.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: government.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "government.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+hr.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: hr.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "hr.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+insurance.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: insurance.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "insurance.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+******************************************************************
+it.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: it.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "it.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+************************************************************************
+leadership.managementhelp.org
+************************************************************************
+<!-- Custom Channel Tag: leadership.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "leadership.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+******************************************************************
+legal.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: legal.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "legal.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+************************************************************************
+management.managementhelp.org
+************************************************************************
+<!-- Custom Channel Tag: management.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "management.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+marketing.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: marketing.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "marketing.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+mediainternet.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: mediainternet.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "mediainternet.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+medicalhealth.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: medicalhealth.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "medicalhealth.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+nonprofit.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: nonprofit.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "nonprofit.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+operations.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: operations.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "operations.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+********************************************************************
+projectmanagement.managementhelp.org
+********************************************************************
+<!-- Custom Channel Tag: projectmanagement.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "projectmanagement.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+******************************************************************
+sales.managementhelp.org
+******************************************************************
+<!-- Custom Channel Tag: sales.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "sales.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+********************************************************************
+strategicplanning.managementhelp.org
+********************************************************************
+<!-- Custom Channel Tag: strategicplanning.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "strategicplanning.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+************************************************************************
+supervision.managementhelp.org
+************************************************************************
+<!-- Custom Channel Tag: supervision.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "supervision.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+************************************************************************
+teambuilding.managementhelp.org
+************************************************************************
+<!-- Custom Channel Tag: teambuilding.managementhelp.org -->
+<script type="text/javascript">
+  var _bizo_data_partner_id = "984";
+  var _bizo_data_partner_channel_id = "teambuilding.managementhelp.org";
+</script>
+<script type="text/javascript">
+  var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+  document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/convert_data.js?partner_id=" + _bizo_data_partner_id + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+

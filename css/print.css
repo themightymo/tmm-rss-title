@@ -1,0 +1,29 @@
+body{font-family:"Lucida Grande", Verdana, Lucida, Geneva, Arial, Helvetica, sans-serif;margin-top:0px;}
+#main, #main_edit{margin-left:auto;margin-right:auto;margin-top:10px;background-color:white;padding-left:1em;padding-top:1em;padding-right:1em;padding-bottom:1em;background-color:white;}
+#main{width:auto;}
+#main_edit{width:95%;}
+p, td, ul, ol, ul, li, dl, dt, dd{font-family:"Lucida Grande", Lucida, Geneva, Arial, Helvetica, sans-serif;}
+div.cleaner{clear:both;}
+#header{display:none;}
+#pageTitle{margin-bottom:10px;}
+.pageTitleSeperator{font-size:x-small;voice-family:"\"}\"";voice-family:inherit;font-size:small;}
+#pagename a{color:#804A00;text-decoration:none;font-size:large;font-weight:bold;margin-left:3px;margin-bottom:20px;voice-family:"\"}\"";voice-family:inherit;font-size:large;}
+#menu{display:none;width:0;}
+#menulinks{display:none;}
+#content{width:auto;float:left;background:white;font-size:small;margin-top:10px;margin-left:10px;margin-right:50px;}
+#footer{display:none;}
+div#search{display:none;}
+#menu{display:none;}
+#rightbar{display:none;}
+#metrics{color:#cccccc;padding:10px 10px 10px 10px;margin-left:150px;font-size:small;voice-family:"\"}\"";voice-family:inherit;font-size:medium;}div#rootLinks{background-color:transparent;color:black;padding:2px 0px 0px 0px;font-size:xx-small;voice-family:"\"}\"";voice-family:inherit;font-size:x-small;}
+.copyright{background-color:#EAEAEA;color:black;padding:2px 0px 0px 0px;}
+.illustration{float:left;margin-right:12px;margin-top:0px;margin-bottom:5px;}
+div#rootLinks{background-color:#D9FFFF;color:black;padding:2px 0px 0px 0px;}
+div#logo{padding:0px 0px 0px 0px;border:0px;width:75px;left:10px;background-color:transparent;}
+#usermessage{display:none;background-color:#FFFFCC;}
+div#networkframe{font-size:x-small;voice-family:"\";}\"";background-color:transparent;voice-family:inherit;font-size:small;text-decoration:none;color:#6600FF;}
+div#networkframe a{display:inline;margin:0;padding:1px 5px 1px 5px;font-size:x-small;voice-family:"\";}\"";background-color:transparent;voice-family:inherit;font-size:small;text-decoration:none;color:#6600FF;}
+#breadcrumblinks{font-size:xx-small;voice-family:"\";}\"";background-color:white;voice-family:inherit;font-size:small;text-decoration:none;color:black;}
+.accountline{display:block;font-size:10px;}
+.date{margin:15px 0px 0px;font-family:Verdana,Arial,sans-serif;color:black;font-size:11px;font-weight:bold;}
+.byline{font-family:Verdana,Arial,sans-serif;color:rgb(153, 153, 153);font-size:11px;}

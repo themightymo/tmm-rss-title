@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+This is the search template file (search_template.html) which contains the layout
+to your search page.
+
+Note that you can not access the search function from this page (by default). Instead,
+you should open or link to the search script, which is a file named "search.php",
+"search.asp", or "search.cgi".
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><!--#include virtual="/template/header.html"-->
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title>Free Management Library Topic Search</title>
+	<!--
+	You can change the fonts, colors, and styles of your search results with the CSS below.
+	For some examples and more information on Cascading Style Sheets (CSS), visit our support page at:
+	http://www.wrensoft.com/zoom/support/css.html
+	-->
+	<style type="text/css">
+		.highlight { background: #FFFF40; }
+		.searchheading { font-size: 130%; font-weight: bold; }
+		.summary { font-size: 80%; font-style: italic; }
+		.results { font-size: 100%; }
+		.category { color: #999999; }
+		.description { font-size: 100%; color: #008000; }
+		.context { font-size: 100%; }
+		.infoline { font-size: 80%; font-style: normal; color: #808080;}
+		.sorting { text-align: right; }
+		.result_title { font-size: 100%; }
+
+		.zoom_searchform { font-size: 100%; }
+		.zoom_options { font-size: 80%; }
+		input.zoom_button {  }
+		input.zoom_searchbox {  }
+	</style>
+</head>
+
+<BODY BGCOLOR="#ffffff"><!--#include virtual="/template/top-left.html"-->
+	<!--
+	The ZOOMSEARCH tag below marks the place where your search form and search results
+	will be inserted when you run the search script. By default, you do not need to place a
+	search form here, the search script will generate one and display it before the search
+	results. Also note that the ZOOMSEARCH tag should be on a seperate line of its own.
+	-->
+	<H1>Search Free Management Library Topics</H1>
+	<P>
+	Enter one or more keywords to search for within the Free Management Library Topics.<br />
+	Note that '*' and '?' wildcards are supported.
+	</p>
+	<!--ZOOMSEARCH-->
+
+<!--#include virtual="/template/bottom-right.html"-->
+<!--         virtual "/bizo-tags/bizo-default-tag.txt" -->
+
+</body>
+</html>

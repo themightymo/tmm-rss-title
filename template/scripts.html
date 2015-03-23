@@ -1,0 +1,61 @@
+<!-- scripts template last updated 4/27/11 -->
+
+<!-- combined jquery scripts for optimization of page speed
+
+
+<script type="text/javascript" src="/js/breadcrumbs.js"></script>
+<script src="/js/jquery-1.4.4.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/jquery.hoverIntent.minified.js" type="text/javascript" charset="utf-8"></script>
+// -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<script type="text/javascript">
+<!--
+/* Preloading Images */
+var ImgLoad = new Array()
+for (var i=1; i<2; i++)  {
+   ImgLoad[i] = new Image()
+}
+ImgLoad[1].src = "/images/fml_header.jpg"
+// -->
+</script>
+
+<script src="/js/jquery-1.4.4.hover.crumbs.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      function addMega(){
+        $(this).addClass("hovering");
+        }
+      function removeMega(){
+        $(this).removeClass("hovering");
+        }
+    var megaConfig = {
+         interval: 0,
+         sensitivity: 4,
+         over: addMega,
+         timeout: 750,
+         out: removeMega
+    };
+    $("li.mega").hoverIntent(megaConfig)
+    });
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5308613-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'http://www.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+

@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /js
+Disallow: /css
+Disallow: /guides
+Disallow: /images
+Disallow: /bizo-tags
+Disallow: /plesk-stat
+Disallow: /img
+Disallow: /email
+Disallow: /stage
+Disallow: /test
+Disallow: /xmlgenerator
+Allow: /
+Sitemap: http://managementhelp.org/sitemap.xml
+Sitemap: http://managementhelp.org/ror.xml

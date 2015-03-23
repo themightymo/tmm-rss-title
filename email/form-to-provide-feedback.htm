@@ -1,0 +1,162 @@
+<HTML><HEAD><TITLE>To Provide Feedback About the Free Management Library</TITLE><!--#include virtual="/template/header.html"-->
+
+
+
+<script language="javascript" type="text/javascript">
+<!--HIDE
+function url(test) {
+if (document.referrer != "") {
+ document.test.getURL.value=document.referrer
+ }
+}
+
+
+function check(mtForm)   {
+var emailID=document.test.required_contact
+
+  if  (mtForm.expectdesc.value == "")  {
+    alert("Please enter a description of what you were expecting.")
+    mtForm.expectdesc.focus()
+    return false
+  }  else if ((emailID.value==null)||(emailID.value=="")){
+		alert("Please Enter your Email Address.")
+		emailID.focus()
+		return false
+  }  else if (required_echeck(emailID.value)==false){
+		emailID.value=""
+		emailID.focus()
+		return false
+  } else if (mtForm.required_echeck.value==null)  {
+    alert("Please Select the Validation Confirmation.")
+    mtForm.required_echeck.focus()
+    return false
+  }
+     return true
+}
+
+
+
+/**
+ * DHTML email validation script. Courtesy of SmartWebby.com (http://www.smartwebby.com/dhtml/)
+ */
+
+function required_echeck(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("Invalid E-mail ID")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.indexOf(" ")!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+ 		 return true
+	}
+
+
+
+/* function to limit the amount of textarea input to 10 characters */
+function check_length() {
+
+   /* get the length of characters currently in the textarea */
+   var x = document.test.expectdesc.value.length;
+
+   /* if user enters less than 250 characters, ok */
+   if(x < 250) {
+      document.getElementById('charcount').firstChild.nodeValue = (250-x)+" characters remaining";
+      return true;
+   }
+
+   /* if user enters more than 250 characters, no more input allowed */
+   document.getElementById('charcount').firstChild.nodeValue = "Please limit your text to 250 characters.";
+
+   return false;
+}
+
+
+
+
+
+
+//-->
+</script>
+
+
+
+</HEAD>
+<BODY><!--#include virtual="/template/top-left.html"-->
+<H1>To Provide Feedback About the Free Management Library</H1>
+<HR>
+
+
+
+<form method="post" name="test" action="/cgi-bin/p8.cgi" onsubmit="url(this);return check(this)">
+<input type="hidden" name="DateCreated" value="">
+<input type="hidden" name="Method" value="Form to provide feedback">
+<input type="hidden" name="getURL" value="">
+
+Please provide us feedback about your experiences in using the Free Management Library.
+We are very interested in your suggestions, compliments, complaints, etc. REQUIRED
+<BR><B>NOTE!  This form is to provide feedback about your experience using the Free Management Library systems
+and software.  It is not to provide feedback about other products or services.</B>
+<P></P>
+
+<BLOCKQUOTE>
+  <P><TEXTAREA name=expectdesc onKeyPress="return check_length();" rows=5 cols=66></TEXTAREA><div id="charcount">&nbsp;</div> </P></BLOCKQUOTE>
+
+
+<P>Below, please provide your email address so that we might contact you if we have
+questions. (We do not share your address with anyone.) REQUIRED </P>
+<BLOCKQUOTE>
+  <P><input type="text" size="80" maxlength="200" name="required_contact"> <BR></P></BLOCKQUOTE>
+
+
+<P>In an effort to reduce invalid form submissions, the Free Management Library has added an email validation component to our contact forms.  Please select &quot;Validate Contact Form&quot; below to validate the information above.  REQUIRED</P>
+
+<BLOCKQUOTE>
+  <P><SELECT NAME="required_echeck" required="true">
+    <OPTION SELECTED>Validate Contact Form
+    <OPTION VALUE="robot">For Robots Only
+    <OPTION VALUE="r83k!fd023kdkfd92354kb0pg39">Confirm Validation
+</select><br>
+When you see &quot;Confirm Validation&quot;, click on the Submit Form button once.</P>
+</BLOCKQUOTE>
+
+<input class="hcheck" name="hcheck" type="text">
+
+<INPUT type=submit value="Submit Form"> <INPUT type=reset value="Reset Form"> </FORM>
+<HR>
+<!--#include virtual="/template/bottom-right.html"--><!--#include virtual="/bizo-tags/bizo-default-tag.txt"-->
+</body></HTML>

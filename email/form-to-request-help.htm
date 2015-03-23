@@ -1,0 +1,241 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 3.0 Win">
+  <TITLE>To Request Help In Using the Library</TITLE>
+  <!--#include virtual="/template/header.html"-->
+  <SCRIPT language="javascript" TYPE="text/javascript">
+<!--HIDE
+function url(test) {
+if (document.referrer != "") {
+ document.test.getURL.value=document.referrer
+ }
+}
+
+
+function check(mtForm)   {
+var emailID=document.test.required_contact
+
+  if (mtForm.helpdesc.value == "")  {
+    alert("Please enter a description of the help you are requesting.")
+    mtForm.helpdesc.focus()
+    return false
+ } else if (mtForm.expectdesc.value == "")  {
+    alert("Please enter a description of what you were expecting.")
+    mtForm.expectdesc.focus()
+    return false
+  }  else if ((emailID.value==null)||(emailID.value=="")){
+		alert("Please Enter your Email Address.")
+		emailID.focus()
+		return false
+  }  else if (required_echeck(emailID.value)==false){
+		emailID.value=""
+		emailID.focus()
+		return false
+  } else if (mtForm.required_echeck.value==null)  {
+    alert("Please Select the Validation Confirmation.")
+    mtForm.required_echeck.focus()
+    return false
+  }
+     return true
+}
+
+
+
+/**
+ * DHTML email validation script. Courtesy of SmartWebby.com (http://www.smartwebby.com/dhtml/)
+ */
+
+function required_echeck(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("Invalid E-mail ID")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.indexOf(" ")!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+ 		 return true
+	}
+
+
+
+/* function to limit the amount of textarea input to 10 characters */
+function check_length() {
+
+   /* get the length of characters currently in the textarea */
+   var x = document.test.helpdesc.value.length;
+
+   /* if user enters less than 250 characters, ok */
+   if(x < 250) {
+      document.getElementById('charcount').firstChild.nodeValue = (250-x)+" characters remaining";
+      return true;
+   }
+
+   /* if user enters more than 250 characters, no more input allowed */
+   document.getElementById('charcount').firstChild.nodeValue = "Please limit your text to 250 characters.";
+
+   return false;
+}
+
+
+
+
+
+/* 2nd function same as above */
+function check_length2() {
+
+   /* get the length of characters currently in the textarea */
+   var y = document.test.expectdesc.value.length;
+
+   /* if user enters less than 250 characters, ok */
+   if(y < 250) {
+      document.getElementById('charcount2').firstChild.nodeValue = (250-y)+" characters remaining";
+      return true;
+   }
+
+   /* if user enters more than 250 characters, no more input allowed */
+   document.getElementById('charcount2').firstChild.nodeValue = "Please limit your text to 250 characters.";
+
+   return false;
+}
+
+//-->
+  </SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<FORM METHOD="POST" NAME="test" ACTION="/cgi-bin/p8.cgi" onsubmit="url(this);return check(this)"
+ENCTYPE="x-www-form-urlencoded">
+<!--#include virtual="/template/top-left.html"-->
+
+<H1>To Request Help In Using the Library</H1>
+
+<HR ALIGN=LEFT>
+
+<P>The email form below is to request help using the Free Management
+Library system. We are <B>NOT</B> staffed to provide consultation
+regarding the content of various articles and about issues and
+goals in your organization.</P>
+
+<P>The Library is managed by a group of part-time volunteer administrators.
+Thus, response time to your requests for help might take up to
+a few days.</P>
+
+<P>Therefore, if you need help in making the most of your use
+of the Library, we suggest the following, depending on the nature
+of your need:</P>
+
+<OL>
+  <LI>If your question is about using the Library, read <A HREF="http://www.managementhelp.org/aboutfml/how-to-use-it.htm"
+  CLASS="TEXTLINK">How to Use the Library</A>.
+  <LI>If your question is about finding a certain topic in the
+  Library, see <A HREF="http://www.managementhelp.org/aboutfml/how-to-use-it.htm#anchor3363171">To
+  Find a Certain Topic</A>.
+  <LI>If your question is about finding additional information
+  about a certain topic, review the &quot;Related Library Topics&quot;
+  and &quot;Recommended Books&quot; referenced near the bottom
+  of that topic's page.
+  <LI>If your question is about adding information to the Library,
+  read <A HREF="http://www.managementhelp.org/aboutfml/how-to-use-it.htm#anchor3343714">To
+  Share Your Resources in the Library</A>.
+  <LI>If your question is about reprinting materials from the Library,
+  read <A HREF="http://www.managementhelp.org/aboutfml/copyright.htm"
+  CLASS="TEXTLINK">Copyright and Reprint Terms.</A>
+  <LI>If your question is about how to apply certain topics in
+  your life and work, consider the many sources of assistance in
+  the section &quot;General Resources&quot; referenced from the
+  right-side sidebar.
+</OL>
+
+<P>If none of the above were helpful to you, then please answer
+the following questions. <INPUT TYPE="hidden" NAME="DateCreated"
+VALUE=""> <INPUT TYPE="hidden" NAME="Method" VALUE="Form to request help">
+<INPUT TYPE="hidden" NAME="getURL" VALUE=""> What did not work
+for you when trying to use the Library, e.g., you could not find
+a certain item, Library pages do not appear usable to you, etc?
+Please enter your explanation below. REQUIRED <BR>
+<B>!NOTE! This form is NOT intended for getting help with your
+personal management or organizational question. The form IS ONLY
+intended for getting help with using the Free Management Library
+general system and software.</B></P>
+
+<BLOCKQUOTE>
+  <P><TEXTAREA NAME="helpdesc" onKeyPress="return check_length();"
+  ROWS="5" COLS="66" wrap
+></TEXTAREA><div id="charcount">&nbsp;</div></P>
+</BLOCKQUOTE>
+
+<P>What were you expecting, but not getting, from the Library,
+resulting in your needing help? REQUIRED</P>
+
+<BLOCKQUOTE>
+  <P><TEXTAREA NAME="expectdesc" onKeyPress="return check_length2();"
+  ROWS="5" COLS="66" wrap
+></TEXTAREA><div id="charcount2">&nbsp;</div></P>
+</BLOCKQUOTE>
+
+<P>Below, please provide your email address so that we might contact
+you if we have questions. (We do not share your address with anyone.)
+REQUIRED</P>
+
+<BLOCKQUOTE>
+  <P><INPUT TYPE="text" SIZE="80" MAXLENGTH="200" NAME="required_contact">
+<BR>
+  </P>
+</BLOCKQUOTE>
+
+<P>In an effort to reduce invalid form submissions, the Free Management
+Library has added an email validation component to our contact
+forms. Please select &quot;Validate Contact Form&quot; below to
+validate the information above. REQUIRED</P>
+
+<BLOCKQUOTE>
+  <P><SELECT NAME="required_echeck" required="true">
+  <OPTION SELECTED>Validate Contact Form
+    <OPTION VALUE="robot">For Robots Only
+<OPTION VALUE="r83k!fd023kdkfd92354kb0pg39">Confirm Validation
+  </SELECT><BR>
+  When you see &quot;Confirm Validation&quot;, click on the Submit
+  Form button once.</P>
+</BLOCKQUOTE>
+
+<P><INPUT class="hcheck" NAME="hcheck" TYPE="text" SIZE="20">
+<INPUT TYPE="submit" VALUE="Submit Form"> <INPUT TYPE="reset"
+VALUE="Reset Form"> <HR ALIGN=LEFT><!--#include virtual="/template/bottom-right.html"--></FORM>
+
+<!--#include virtual="/bizo-tags/bizo-default-tag.txt"-->
+</body>
+</HTML>

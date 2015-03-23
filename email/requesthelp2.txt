@@ -1,0 +1,10 @@
+From: [required_email]
+To: carter@authenticityconsulting.com
+CC: teri@authenticityconsulting.com
+Subject: Form to request help
+
+Date:  [mon] - [day], [year]
+Email: [required_email]
+URL: [url]
+Help Description: [helpdesc]
+Expect Description: [expectdesc]

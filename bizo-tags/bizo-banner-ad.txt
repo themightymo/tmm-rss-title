@@ -1,0 +1,11 @@
+<!-- Ad Tag: AuthenticityConsulting 728x90 -->
+<script type="text/javascript">
+var _bizo_ad_partner_id = "984";
+var _bizo_ad_section_id = "_default";
+var _bizo_ad_width  = "728";
+var _bizo_ad_height = "90";
+var _bizo_ad_override_domain = "managementhelp.org";
+
+var _bizo_p = (("https:" == document.location.protocol) ? "https://sjs." : "http://js.");
+document.write(unescape("%3Cscript src='" + _bizo_p + "bizographics.com/show_ad.js?partner_id="+_bizo_ad_partner_id+"' type='text/javascript'%3E%3C/script%3E"));
+</script>

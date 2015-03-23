@@ -1,0 +1,190 @@
+
+<!-- top-left template last updated 5/26/2011 -->
+
+
+<div id="main">
+
+	<div id="top-links">
+
+
+		<div id="translateThisButton" class="topLinksForSpacing">
+		<!-- Begin TranslateThis Button -->
+		<div id="translate-this"><a href="http://translateth.is/" class="translate-this-button" rel="nofollow">Translate</a></div>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript" src="/js/translate-this.js"></script>
+		<script type="text/javascript">
+		TranslateThis({
+		GA:true,
+		onClick:function(){_gaq.push(['_trackEvent', 'TranslateThis', _ate.ed.target.ckv["tt-lang"], window.location.pathname]);},
+		moreText : '38 More Languages &raquo;',
+		ddLangs:[
+		  'en',
+		  'fr',
+		  'de',
+		  'ru',
+		  'zh-CN',
+		  'zh-TW',
+		  'es',
+		  'pl',
+		  'nl',
+		  'tr',
+		  'it',
+		  'el',
+		  'ar',
+		  'pt-PT',
+		  'ja',
+		  'ko',
+		  'id',
+		  'cs',
+		  'vi',
+		  'iw'
+		]
+		});
+		</script>
+		</div><!-- End TranslateThis Button -->
+
+
+		<div id="freeManagementLibraryLink" class="topLinksForSpacing">
+		<a href="/">Home</a>
+		</div><!-- #freeManagementLibraryLink -->
+
+
+
+
+		<div id="fontResizerButtons" class="topLinksForSpacing">
+        	<a href="#" class="resizeSmall" onclick="document.getElementById('sizer').className='resizeSmall';return false;">A</a>
+		<a href="#" class="resizeMedium" onclick="document.getElementById('sizer').className='resizeMedium';return false;">A</a>
+		<a href="#" class="resizeLarge" onclick="document.getElementById('sizer').className='resizeLarge';return false;">A</a>
+		</div><!-- #fontResizer -->
+
+
+
+
+		<div id="addThisButton" class="topLinksForSpacing">
+		<!-- AddThis Button BEGIN -->
+			<div class="addthis_toolbox addthis_default_style ">
+			<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4dbb234049ac109b" class="addthis_button_compact">Share</a>
+			</div>
+		<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+		<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dbb234049ac109b&amp;domready=1"></script>
+		<!-- AddThis Button END -->
+		</div><!-- #addThisButton -->
+
+
+		<div id="socialMediaLinks" class="topLinksForSpacing">
+		<a href="http://www.facebook.com/#!/pages/Free-Management-Library/282072164711?ref=mf"  rel="nofollow" target="_blank">
+		   <img src="/images/facebook-18x18.png" alt="Follow us on Facebook" border="0" height="18" width="18" /></a>
+		<a href="http://www.twitter.com/FreeMgmtLibrary" rel="nofollow" target="_blank">
+		   <img src="/images/twitter-18x18.png" alt="Follow us on Twitter" border="0" height="18" width="18" /></a>
+		<a href="http://www.linkedin.com/profile?viewProfile=&amp;key=37151660&amp;goback=.hom&amp;trk=NUS_UNIU_SHARE-prfl"  rel="nofollow" target="_blank">
+		   <img src="/images/linkedin-18x18.png" alt="Follow us on LinkedIn" border="0" height="18" width="18" /></a>
+		</div>
+
+	</div>
+
+<div id="header">
+<a href="/"><img src="/images/fml_header.jpg" alt="Free Management Library" border="0" height="126" width="927" /></a>
+</div>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" >
+
+
+<div id="menu">
+
+
+
+
+	<div class="box">
+	<h3>About Library</h3>
+	<ul>
+	<li><a href="/aboutfml/what-it-is.htm">What It Is</a></li>
+	<li><a href="/aboutfml/how-to-use-it.htm">How to Use It</a></li>
+	<li><a href="/aboutfml/social-media.htm">To Get Updates</a></li>
+	</ul>
+	</div>
+
+
+
+
+	<div class="box">
+	<h3>Library's Blogs</h3>
+	<ul>
+	<li><a href="/blogs/">List of Blogs</a></li>
+	</ul>
+	</div>
+
+
+
+
+	<div class="box">
+	<h3>Add to Library</h3>
+	<ul>
+	<li><a href="/aboutfml/community-rules.htm">Community Rules</a></li>
+	<li><a href="/email/form-to-add-content.htm">Submit your links</a></li>
+	</ul>
+	</div>
+
+
+
+
+	<div class="box">
+	<h3>Contact Us</h3>
+	<ul>
+	<li><a href="/email/form-to-provide-feedback.htm">Provide Feedback</a></li>
+	<li><a href="/email/form-to-request-help.htm">Help Using Library</a></li>
+	</ul>
+	<ul>
+	<li><a href="/aboutfml/authenticity.htm">
+		   <img src="/images/authenticity-consulting-27x27.gif" align="right" alt="Developed by Authenticity Consulting, LLC" border="0" height="27" width="27" />Developed by Authenticity Consulting, LLC</a></li>
+	</ul>
+	</div>
+
+	<a href="http://authenticityconsulting.us1.list-manage.com/subscribe?u=f82cba6491b9e0d15fee12ee6&amp;id=78aa70aa53" rel="nofollow" target="_blank">
+		   <img src="/images/fmlinks-fml-ad.jpg" alt="Click to sign up for FML &gt;&gt; Links, an ePub from Authenticity Consulting, LLC and Free Management Library." border="0" height="177" style="margin:0;padding:0;" width="140" /></a><br /><br />
+
+
+
+
+
+
+</div>
+
+</td>
+
+
+
+<script type="text/javascript">
+<!--
+doCrumbs();
+//-->
+</script>
+
+
+
+
+<td valign="top" width="100%">
+
+<div id="content">
+
+	<div id="sizer">
+
+<div style="float:right;padding:0 5px 5px 5px;margin:0;z-index:1;position:relative;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9488528525256599";
+/* 200x200, created 8/1/08 */
+google_ad_slot = "6248633802";
+google_ad_width = 200;
+google_ad_height = 200;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+<!-- google_ad_section_start -->
+
