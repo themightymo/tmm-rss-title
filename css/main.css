@@ -123,21 +123,22 @@ ul.library li.mega .bubble span#right a:hover{text-decoration:underline;font-wei
 @media (max-width: 992px) {
 	#main{min-width:0;}
 	.home{width:100% !important;}
-	#header{height:auto;}
+	#header{height:auto;overflow:hidden;}
 	#header img{width: 100%;height: auto;}
-	.top, .top1, .top2, .top3, .top4, .top5, .top6, .top7, .top8, .top9 {display:inline-block;}
-	.top1, .top2, .top5, .top7 {width:30%;min-width:140px;}
-	.top3, .top6 {width:40%;}
+	.left-column-1, .middle-column-1, .right-column-1 {display:inline-block;}
+	.left-column-1, .right-column-1 {width:24%;min-width:140px;}
+	.middle-column-1 {width:52%;}
+	#footer{overflow:hidden;}
 	
 }
 @media (max-width: 561px) {
-	.top2, .top7 {width:100%;}
-	.top3, .top6 {width:70%;}
-	#rightbar {margin: 0 auto;float: none;}
+	.right-column-1 {width:100%;}
+	.middle-column-1 {width:70%;}
+	.middle-column-1 h1 {clear:both;}
+	#rightbar, #menu {margin: 0 auto;float: none;}
 	.small-no {display:none;}
 	.small-yes {display:block;}
 }
 @media (max-width: 466px) {
-	.top5 {margin:0 auto;display:block;}
-	.top3, .top6 {width:100%;}	
+	.left-column-1, .middle-column-1, .right-column-1 {margin:0 auto;display:block;width:100%;
 }
