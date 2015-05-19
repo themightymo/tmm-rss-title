@@ -120,7 +120,6 @@ ul.library li.mega .bubble span#right a:hover{text-decoration:underline;font-wei
 .home span#right{line-height:22px;margin:10px 0 20px 0;float:left;padding:5px 10px;}
 .small-no {display:block;}
 .small-yes {display:none;max-width:191px;text-align:center;}
-textarea {width:80%;}
 @media (max-width: 992px) {
 	#main{min-width:0;}
 	.home{width:100% !important;}
@@ -140,9 +139,19 @@ textarea {width:80%;}
 	.small-no {display:none;}
 	.small-yes {display:block;}
 	#content h1 {clear:both;}
-	#footer table {width:100%;}
 }
 @media (max-width: 466px) {
 	.left-column-1, .middle-column-1, .right-column-1 {margin:0 auto;display:block;width:100%;}
-	#footer table td {width:100%;display: block;text-align: center;}
+}
+
+@media (max-width: 560px) {
+	#footer table td{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;	
+	}
+	#footer table {
+	    width: auto;
+	}
 }
