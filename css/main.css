@@ -125,7 +125,7 @@ ul.library li.mega .bubble span#right a:hover{text-decoration:underline;font-wei
 	.home{width:100% !important;}
 	#header{height:auto;overflow:hidden;}
 	#header img{width: 100%;height: auto;}
-	.left-column-1, .middle-column-1, .right-column-1 {display:inline-block;}
+	.left-column-1, .middle-column-1, .right-column-1 {display:inline-block;float:left;}
 	.left-column-1, .right-column-1 {width:24%;min-width:140px;}
 	.middle-column-1 {width:52%;}
 	#footer{overflow:hidden;}
