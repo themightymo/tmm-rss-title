@@ -1,0 +1,105 @@
+<?php
+/**
+ * Footer Template
+ *
+ * The footer template is generally used on every page of your site. Nearly all other
+ * templates call it somewhere near the bottom of the file. It is used mostly as a closing
+ * wrapper, which is opened with the header.php file. It also executes key functions needed
+ * by the theme, child themes, and plugins.
+ *
+ * @package Hybrid
+ * @subpackage Template
+ */
+?>
+		<?php /*?><?php hybrid_content_wrapper( 'close' ); // Deprecated.  Will be removed later. ?><?php */?>
+
+		<?php hybrid_after_container(); // After container hook ?>
+
+
+	</div><!-- #container -->
+
+	<div id="footer-container">
+
+		<?php hybrid_before_footer(); // Before footer hook ?>
+
+		<div id="footer">
+
+
+            <div id="footerContents">
+                <div id="footer1">
+                    <P>
+                    Free Management Library, &copy; Copyright Authenticity Consulting, LLC; All rights reserved<br>
+                    Blog systems developed by <a href="http://themightymo.com">The Mighty Mo! Design Co.</a><br />
+                    </P>
+                </div><!-- .footer1 -->
+
+                <div id="footer2">
+                	<div class="footerItem footerProvidedBy">
+                        <p>Provided by</p>
+                        <A HREF="http://www.authenticityconsulting.com/" TARGET="_BLANK">
+                        <IMG SRC="http://managementhelp.org/images/logoscolorsmall.jpg" border=0
+                         WIDTH="76" HEIGHT="100" NATURALSIZEFLAG="0" ALIGN="CENTER" VALIGN="BOTTOM" ></A></TD>
+                    </div><!-- .footerItem -->
+
+                    <div id="footerNavigation">
+                    	<li><a href="<?php bloginfo('url'); ?>/contact-us">Contact Us</a></li>
+						<?php
+                        //Get the navigation from the main blog.
+                        switch_to_blog(1); ?>
+                            <?php wp_list_pages('title_li=&include=9,11,39'); ?>
+                        <?php restore_current_blog(); ?>
+                    </div>
+                	<div class="footerItem footerAmazon">
+                        <form action="http://www.amazon.com/exec/obidos/external-search">
+                         <table class="normal" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td style="background-color:#fff;">
+                              <table border="0" cellpadding="0" cellspacing="0" align="top" height="90" width="120" style="border: 1px solid #000000 !important;">
+                                <tr>
+
+                                  <td style="background-color:#fff;" height="20" valign="bottom" align="center">
+                                    <span style="font-family: verdana,arial,helvetica,sans-serif; font-size:10px !important; font-weight:bold !important;">Search Now:</span>
+                                  </td>
+                                  <td style="background-color:#fff;"> </td>
+                                </tr>
+                                <tr>
+                                  <td style="background-color:#fff;" align="center" height="30" valign="top">
+                                    <input type="text" name="keyword" size="10" value="" />
+
+                                  </td>
+                                  <td style="background-color:#fff;" height="20" valign="top" align="left">
+
+                                    <input type="hidden" name="mode" value="blended" />
+                                    <input type="hidden" name="tag" value="freemanagemen-20" />
+                                    <input type="image" border="0" value="Go" name="Submit" src="http://managementhelp.org/ap-search-go-btn.gif" alt="[ Go ]" align="absmiddle" />
+
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2" style="background-color:#000;" height="40">
+                                    <img src="http://managementhelp.org/searchbox-logo-126x32.gif" height="36" border="0" width="126" alt="Amazon Logo" /></a></td>
+
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                         </table>
+                        </form>
+                	</div><!-- .footerItem -->
+                </div><!-- #footer2 -->
+			</div><!-- #footerContents -->
+
+		</div><!-- #footer -->
+
+		<?php hybrid_after_footer(); // After footer hook ?>
+
+	</div><!-- #footer-container -->
+
+</div><!-- #body-container -->
+
+<?php wp_footer(); // WordPress footer hook ?>
+<?php hybrid_after_html(); // After HTML hook ?>
+
+
+</body>
+</html>

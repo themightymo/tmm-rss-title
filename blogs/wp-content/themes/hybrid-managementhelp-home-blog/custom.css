@@ -1,0 +1,109 @@
+#navigation{width:100%;}
+body{font-family:Verdana, Arial, Helvetica, sans-serif;line-height:auto;}
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption{font-size:13px;font-family:Verdana, Arial, Helvetica, sans-serif;line-height:18px;}
+table, tbody, tfoot, thead, tr, th, td{background:none;color:#4e4e4e;border:none;}
+p, ul, ol, dl, address, object, table, hr, .aligncenter, .center, .alignnone, .block{margin-bottom:18px;}
+h1, h2, h3, h4, h5, h6{font-family:Verdana, Arial, Helvetica, sans-serif;margin-bottom:18px;}
+h1{font-family:"Lucida Sans", Lucida, Geneva, Arial, Helvetica, sans-serif;color:#006699;font-size:21px;font-weight:bold;}
+.author-info, .category-info, .date-info, .tag-info, .search-info{margin-bottom:5px;}
+h2{font-family:"Lucida Sans", Lucida, Geneva, Arial, Helvetica, sans-serif;color:#572C5D;font-size:19px;line-height:21px;font-weight:bold;}
+.entry-title a, .entry-title a:visited{font-family:"Lucida Sans", Lucida, Geneva, Arial, Helvetica, sans-serif;color:#572C5D;font-size:19px;line-height:21px;font-weight:bold;text-decoration:none;}
+h3{font-size:15px;font-weight:bold;color:#006699;margin:0 0 10px;}
+h4{color:#4e4e4e;font-size:100%;font-weight:bold;margin:0 0 10px;}
+p, ul, ol, ul, li, dd{font-size:100%;}
+a{color:#730083;font-weight:bold;}
+a:hover{text-decoration:underline;font-weight:bold;}
+a:visited{color:#954B9F;}
+#body-container{min-width:900px;max-width:1180px;}
+#top-links {background:#F8F4F0;}
+#top-links-bkg{height:30px;background:#f8f4f0;position:absolute; width:100%; min-width:927px; top:0;left:0;z-index:-1;}
+#top-links ul li{display:inline;float:left;}
+#top-links{display:block;margin:0 20px;padding:0;width:100%;min-width:927px;text-align:center;height:30px; max-width:1140px;}             /*custom margin/max-width styles for blogs*/
+#top-links div, #top-links a, #top-links span, #top-links label{font-size:13px;display:inline;color:#007bba;font-weight:normal;}          /*custom font-weight style for blogs*/
+.topLinksForSpacing{float:right;margin:5px auto 0;padding:0;}
+#blogsLink{float:left;margin:8px 11px 0 5px;}
+#libraryLink{float:right;margin:8px 5px 0 9px;width:52px;text-align:right;}
+#librarySearch{margin:4px 10px 0 30px;}
+#connect{float:right;margin:8px 5px 0;}
+#socialMediaLinks{display:inline;padding:0;width:95px;text-align:left;}
+#socialMediaLinks img{margin:3px 0 0;padding:0;}
+#___plusone_0 iframe {height:15px !important;}
+#freeManagementLibraryLink{display:inline;line-height:24px;padding:0;min-width:50px;text-align:left;margin-left:20px;}
+#translateThisButton{float:left;display:inline;line-height:10px;padding:6px 0 0 15px;width:205px;margin:0;}
+#translate-this{float:left;display:inline;line-height:20px;padding:0 0 0 10px;width:205px;margin:0;}
+#addone{float:right;padding:4px 0 0;width:90px;}
+.addoneButton{display:inline;height:15px;margin:0;padding:0;}
+.ttb-panel{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.ttb-panel a, .ttb-panel a:hover{font-weight:bold;font-family:Verdana, Arial, Helvetica, sans-serif;}
+#addThisButton{display:inline;padding:0;min-width:80px;margin:8px 10px 0 0;text-align:left;}
+.addthis_default_style .at15t_expanded, .addthis_default_style .at15t_compact {margin-left: 4px;}
+.addthis_default_style .addthis_separator, .addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m, .addthis_default_style .at300bs {float: right !important;}
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m {padding:0;}
+#fontResizerButtons{display:inline;padding:0;min-width:50px;}
+#top-links .resizeSmall{font-size:13px;line-height:16px;}
+#sizer.resizeSmall p, #sizer.resizeSmall a , #sizer.resizeSmall a:visited, #sizer.resizeSmall ul li, #sizer.resizeSmall td{font-size:13px;line-height:18px;}
+#top-links .resizeMedium{font-size:16px;}
+#sizer.resizeMedium p, #sizer.resizeMedium a, #sizer.resizeMedium a:visited, #sizer.resizeMedium ul li, #sizer.resizeMedium td{font-size:16px;line-height:20px;}
+#top-links .resizeLarge{font-size:20px;font-weight:normal;}
+#sizer.resizeLarge p, #sizer.resizeLarge a, #sizer.resizeLarge a:visited, #sizer.resizeLarge ul li, #sizer.resizeLarge td{font-size:20px;line-height:24px;}
+
+#top-right-links{display:inline;line-height:24px;margin:10px 0;padding:0;}
+#top-right-links ul li{margin:0;padding:0 25px 0 0;line-height:24px;width}
+#top-right-links a, #top-left-links a{line-height:22px;margin:0;padding:0;}
+form label{line-height:22px;}
+.addthis_toolbox{line-height:22px;}
+#top-right-links span{height:22px;}
+input, textarea{font-family:Verdana, Arial, Helvetica, sans-serif;padding:0;}
+#search-submit-1{display:none;}
+.search-form input{margin-right:0;font-size:13px;}
+.button, .gform_wrapper input.button{background:#006699 none repeat scroll 0 0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:13px;color:#FFFFFF;padding:2px 9px;}
+.button:hover, .gform_wrapper input.button:hover{background:#005380 none repeat scroll 0 0;color:#FFFFFF;}
+#header-container{height:110px;clear:both;}
+#header{margin:0 20px;padding:10px 10px 0 10px;background-image:url(images/headerBG.jpg);background-position:right center;background-repeat:repeat;}
+#site-title, #site-description{font-family:"Lucida Sans", Lucida, Geneva, Arial, Helvetica, sans-serif;}
+#site-title{padding:30px 0;margin:0;font-size:24px;color:#FFFFFF;}
+#site-title a{font-family:"Lucida Sans", Lucida, Geneva, Arial, Helvetica, sans-serif;padding:30px 0;margin:0;color:#FFFFFF;font-size:24px;}
+#site-title a span{color:#FFFFFF;font-size:32px;}
+#navigation{margin:0 20px;padding:0;}
+#page-nav{padding:0;margin:0;}
+#page-nav li{background:transparent url(images/pipe.gif) no-repeat center left;padding:0px 10px;margin:0;}
+#page-nav li a{color:#006699;font-weight:bold;font-size:14px;padding:6px;margin:0;}
+#page-nav ul li.current_page_item{background:transparent url(images/pipe.gif) no-repeat center left;}
+#page-nav .menu .page-item-1{background-image:none;padding:0 10px 0 0;}
+#container{clear:both;margin:0;padding:20px 0;}
+#content{width:60%;float:left;margin:0 0 0 20px;}
+.content{border:none;padding:0 20px 20px 0;margin:0;width:100%;float:none;}
+.no-widgets .content, .no-default-widgets .content, .primary-inactive.secondary-inactive .content{width:100%;}
+.content ul li{background:transparent url(images/bullet.gif) no-repeat scroll 0 3px;}
+.gform_wrapper li, .gform_wrapper form li{background:none;}
+.googleAd{display:none;margin-left:10px;}
+.post-1 .googleAd{display:block;float:right;}
+.post{clear:left;}
+#primary, #secondary{border:none;width:300px;margin:0 20px 0 0;}
+.widget{padding:0;margin:0;background:#F8F4F0 none no-repeat scroll right top;}
+.widget ul{margin:0;padding:8px 8px 12px;position:relative;}
+.widget ul li{background:transparent url(images/bullet.gif) no-repeat scroll 0 3px;background-position:0 3px;margin:0;position:relative;width:250px;}
+.widget ul li a, .widget ul li a:visited, .widget ul li a span, .widget ul li a:visited span{font-size:11px;line-height:13px;position:relative;}
+.widget-title{background:#006699 none no-repeat scroll left top;color:#FFFFFF;font-size:14px;font-weight:bold;margin:0;padding:2px 3px;line-height:18px;}
+#text-4{background:#d5c7b9 none no-repeat scroll right top;}
+.textwidget{padding:8px 8px 12px;margin:0 0 6px;font-size:small;}
+.textwidget p{margin:0;}
+#footer-container{width:100%;text-align:center;}
+#footer{font-style:normal;text-align:center;color:#000000;margin:0 20px;padding:20px 0;border-top:#006699 2px solid;}
+#footer p{text-decoration:none;}
+#footerContents{width:700px;margin:0 auto;text-align:center;padding:0;}
+#footer1{width:100%;text-decoration:none;margin:0 auto 30px;padding:0;}
+#footer2{width:460px;text-decoration:none;margin:0 auto;padding:0;}
+.footerProvidedBy{float:left;width:110px;margin:0 0 0 33px;padding:0;}
+#footerNavigation{margin:0;padding:0;}
+#footerNavigation li{float:left;list-style:none;margin:0;padding:70px 25px 0;}
+.footerAmazon{float:left;width:140px;margin:38px 0 0;padding:0;overflow:visible;}
+.footerAmazon table{margin:0;padding:0;border-right:1px #000000 solid;}
+.normal td{padding:0 0 0 .3em;}
+#footer a{color:#572C5D;}
+#footer a:visited{color:#572C5D;}
+#bsbm_form { clear:both; margin:20px 0; background-color:#FFBDBA; }
+#bsbm_form label {  color: #999; margin:0; padding:10px 0;}
+#bsbm_form .question { font-weight:normal; margin:0; padding:5px 0; }
+#bsbm_form .answer {  }
+#bsbm_form .notice { font-style:italic; }

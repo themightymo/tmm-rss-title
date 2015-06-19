@@ -1,0 +1,207 @@
+<?php
+/**
+ * Header Template
+ *
+ * The header template is generally used on every page of your site. Nearly all other
+ * templates call it somewhere near the top of the file. It is used mostly as an opening
+ * wrapper, which is closed with the footer.php file. It also executes key functions needed
+ * by the theme, child themes, and plugins. 
+ *
+ * @package Hybrid
+ * @subpackage Template
+ */
+
+hybrid_doctype(); ?>
+<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes( 'xhtml' ); ?>>
+<head profile="<?php hybrid_profile_uri(); ?>">
+<title><?php hybrid_document_title(); ?></title>
+
+<link rel="stylesheet" href="http://managementhelp.org/blogs/marketing/wp-content/themes/hybrid-managementhelp-home-blog/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+
+
+
+<!-- BEGIN FEEDBURNER CODE -->
+<?php
+$feedburnerBusinessPlanning = 'http://feeds.feedburner.com/managementhelp/yYXB';
+$feedburnerConsultingSkills = 'http://feeds.feedburner.com/ConsultingSkills';
+$feedburnerBlogs = 'http://feeds.feedburner.com/FreeManagementLibraryBlogs';
+$feedburnerFundraisingForNonprofits = 'http://feeds.feedburner.com/managementhelp/phPE';
+$feedburnerLeadership = 'http://feeds.feedburner.com/managementhelp/THpF';
+$feedburnerNonprofitCapacityBuilding = 'http://feeds.feedburner.com/NonprofitCapacityBuilding';
+$feedburnerOrganizationalDevelopment = 'http://feeds.feedburner.com/OrganizationalDevelopment';
+$feedburnerPersonalAndProfessionalCoaching = 'http://feeds.feedburner.com/PersonalAndProfessionalCoaching';
+$feedburnerPlayground = 'http://feeds.feedburner.com/PlaygroundForFmlBlogMgrs';
+$feedburnerProjectManagement = 'http://feeds.feedburner.com/managementhelp/JKex';
+$feedburnerSearch = 'http://feeds.feedburner.com/ResultsOfsearchLibraryBlogs';
+$feedburnerSocialEnterprise = 'http://feeds.feedburner.com/managementhelp/ffwV';
+$feedburnerTeamPerformance = 'http://feeds.feedburner.com/TeamPerformance';
+$feedburnerTrainingAndDevelopment = 'http://feeds.feedburner.com/TrainingAndDevelopment';
+$feedburnerMarketing = 'http://feeds.feedburner.com/managementhelp/nJem';
+$feedburnerHumanResources = 'http://feeds.feedburner.com/managementhelp/wmys';
+$feedburnerBoardsOfDirectors = 'http://feeds.feedburner.com/BoardsOfDirectors';
+$feedburnerStrategicPlanning = 'http://feeds.feedburner.com/managementhelp/TlwJ';
+$feedburnerBusinessEthics = 'http://feeds.feedburner.com/managementhelp/ODEw';
+$feedburnerSpirituality = 'http://feeds.feedburner.com/SpiritualityInTheWorkplace';
+$feedburnerCrisisManagement = 'http://feeds.feedburner.com/managementhelp/FRPT';
+
+global $current_blog;
+$blog_id = $current_blog->blog_id;
+if ($blog_id == 2){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerBusinessPlanning.'" />';
+} else if ($blog_id == 3){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerConsultingSkills.'" />';
+} else if ($blog_id == 4){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerLeadership.'" />';
+} else if ($blog_id == 5){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerNonprofitCapacityBuilding.'" />';
+} else if ($blog_id == 6){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerPersonalAndProfessionalCoaching.'" />';
+} else if ($blog_id == 7){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerProjectManagement.'" />';
+} else if ($blog_id == 8){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerSocialEnterprise.'" />';
+} else if ($blog_id == 9){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerTeamPerformance.'" />';
+} else if ($blog_id == 10){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerTrainingAndDevelopment.'" />';
+} else if ($blog_id == 11){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerPlayground.'" />';
+} else if ($blog_id == 12){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerSearch.'" />';
+} else if ($blog_id == 14){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerOrganizationalDevelopment.'" />';
+} else if ($blog_id == 15){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerFundraisingForNonprofits.'" />';
+} else if ($blog_id == 16){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerMarketing.'" />';
+} else if ($blog_id == 17){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerHumanResources.'" />';
+} else if ($blog_id == 18){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerBoardsOfDirectors.'" />';
+} else if ($blog_id == 19){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerStrategicPlanning.'" />';
+} else if ($blog_id == 20){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerSpirituality.'" />';
+} else if ($blog_id == 21){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerCrisisManagement.'" />';
+} else if ($blog_id == 22){
+	echo '<link rel="alternate" type="application/rss+xml" title="'.get_bloginfo('name').' RSS Feed" href="'.$feedburnerBusinessEthics.'" />';
+} else{
+?>
+
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Comments Feed" href="<?php bloginfo('comments_rss2_url'); ?>" />
+<?php } ?>
+
+<!-- END FEEDBURNER CODE -->
+
+<?php hybrid_head(); // Hybrid head hook ?>
+<?php wp_head(); // WP head hook ?>
+
+<link rel="stylesheet" href="http://managementhelp.org/blogs/wp-content/themes/hybrid-managementhelp-home-blog/custom.css" type="text/css" media="screen" />
+</head>
+
+<body class="<?php hybrid_body_class(); ?>">
+
+<?php hybrid_before_html(); // Before HTML hook ?>
+
+<div id="body-container">
+
+	<?php hybrid_before_header(); // Before header hook ?>
+    <div id="top-links">
+		<div id="freeManagementLibraryLink" class="topLinksForSpacing">
+			<a href="/">Free Management Library</a>
+		</div><!-- #freeManagementLibraryLink -->	
+		
+        <div id="addThisButton" class="topLinksForSpacing">
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style aboveHeaderItem">
+                    <a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b83ed1148d4fad0" class="addthis_button_compact">Share</a>
+                </div>
+                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b83ed1148d4fad0"></script>
+                <!-- AddThis Button END -->	
+        </div><!-- #addThisButton -->
+        
+        <div id="fontResizerButtons" class="topLinksForSpacing">
+        	<a href="#" class="resizeSmall" onClick="document.getElementById('sizer').className='resizeSmall';return false;">A</a>  
+			<a href="#" class="resizeMedium" onClick="document.getElementById('sizer').className='resizeMedium';return false;">A</a>  
+			<a href="#" class="resizeLarge" onClick="document.getElementById('sizer').className='resizeLarge';return false;">A</a> 
+        </div><!-- #fontResizer -->
+        
+        
+            
+        <div id="librarySearch" class="topLinksForSpacing">
+                <span id="search" >
+                    <form method="get" action="/search/management_help_search.html"> 
+                    <label for="zoom_query">Search Library:</label>   
+                    <input type="text" name="zoom_query" size="20" />    
+                    <input type="hidden" value="Search Our Site" />
+                    </form>
+                </span>
+        </div><!-- #librarySearch -->
+        <div id="allBlogSearch" class="topLinksForSpacing">
+        	<?php  switch_to_blog(12); ?>
+            	<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+			<?php restore_current_blog(); ?>
+            <?php /*?><?php include (TEMPLATEPATH . '/searchform.php'); ?><?php */?>
+            
+        </div><!-- #allBlogSearch -->
+        
+	</div><!-- #top-links -->
+
+	<div id="header-container">
+
+		<div id="header">
+
+			<?php hybrid_header(); // Header hook ?>
+
+		</div><!-- #header -->
+
+	</div><!-- #header-container -->
+
+	<?php /*?><?php hybrid_after_header(); // After header hook ?><?php */?>
+    
+    <div id="navigation">
+    	<div id="page-nav" class="page-nav">
+        	<ul class="menu sf-menu">
+            
+            	
+            	<li class="page_item page-item-1">
+                	<a href="/blogs/">Library Blog's Home</a>
+                </li>
+                <li>
+                	<a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('title'); ?> Home">This Blog's Home</a>
+                </li>
+                <?php
+				//Get the navigation from the main blog.
+				switch_to_blog(1); ?>
+            		<?php wp_list_pages('title_li=&include=15,11,87'); ?>
+                <?php restore_current_blog(); ?>
+                <?php wp_list_pages('title_li='); ?>
+                <?php /*?>
+            	<li class="page_item page-item-1">
+                	<a href="/blogs/">Library Blog's Home</a>
+                </li>
+            	<li class="page_item page-item-2">
+                	<a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('title'); ?> Home"><?php bloginfo('title'); ?> Blog Home</a>
+                </li>
+                <li class="page_item page-item-3">
+                	<a href="/blogs/about/" title="About">About</a>
+                </li>
+                <li class="page_item page-item-4">
+                	<a href="/blogs/policies-2/" title="About">Policies</a>
+                </li>
+                <li class="page_item page-item-5">
+                	<a href="/blogs/guest-writers/" title="About">Guest Writers</a>
+                </li><?php */?>
+            </ul>
+        </div>
+	</div><!-- #navigation -->
+
+
+	<div id="container">
+
+		<?php hybrid_before_container(); // Before container hook ?>
+
+		<?php hybrid_content_wrapper( 'open' ); // Deprecated.  Will be removed later. ?>

@@ -1,0 +1,45 @@
+/* Add Custom CSS Below */
+
+#header{
+	padding:10px 10px 0 10px;}
+#header-container{
+	clear:both;}
+	
+#site-title{
+	padding-top:30px;}
+#top-links {
+	clear:both;}
+	#top-links ul li{
+		display:inline;
+		float:left;
+		padding-left:20px;}
+#top-left-links{
+	float:left;}
+	#top-left-links ul{
+		margin:0;}
+	#top-left-links ul li{
+		padding:0 20px 0 10px;}
+	
+#top-right-links{
+	float:right;}
+
+#navigation{
+	width:100%;}
+#footer-container{
+	background-color:#006599;
+	padding:10px;}
+	
+#secondary{
+	margin:0 20px;
+	width:23%;}
+	
+.aboutTheAuthorImage img{
+	float:left; 
+	height:90px; 
+	margin:0 10px 5px 0; 
+	border:3px solid #ccc; 
+	padding:3px; 
+	background-color:#fff; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow:5px 5px 5px #888888;}
